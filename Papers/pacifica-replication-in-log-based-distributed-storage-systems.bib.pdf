@@ -1,0 +1,10 @@
+@techreport{lin2008pacifica,
+author = {Lin, Wei and Yang, Mao and Zhang, Lintao and Zhou, Lidong},
+title = {PacificA: Replication in Log-Based Distributed Storage Systems},
+year = {2008},
+month = {February},
+abstract = {Large-scale distributed storage systems have gained popularity for storing and processing ever increasing amount of data. Replication mechanisms are often key to achieving high availability and high throughput in such systems. Research on fundamental problems such as consensus has laid out a solid foundation for replication protocols. Yet, both the architectural design and engineering issues of practical replication mechanisms remain an art. This paper describes our experience in designing and implementing replication for commonly used log-based storage systems. We advocate a general replication framework that is simple, practical, and strongly consistent. We show that the framework is flexible enough to accommodate a variety of different design choices that we explore. Using a prototype system called PacificA, we implemented three different replication strategies, all using the same replication framework. The paper reports detailed performance evaluation results, especially on system behavior during failure, reconciliation, and recovery.},
+url = {https://www.microsoft.com/en-us/research/publication/pacifica-replication-in-log-based-distributed-storage-systems/},
+pages = {14},
+number = {MSR-TR-2008-25},
+}
